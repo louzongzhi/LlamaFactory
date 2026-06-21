@@ -3595,30 +3595,20 @@ register_model_group(
 
 register_model_group(
     models={
-        "Aeva-Flash-Chat": {
-            DownloadSource.DEFAULT: "louzongzhi/Aeva-Flash",
-            DownloadSource.MODELSCOPE: "louzongktsi/Aeva-Flash",
-            DownloadSource.OPENMIND: "louzongzhi/Aeva-Flash",
+        "Aeva-Nano-Chat": {
+            DownloadSource.DEFAULT: "louzongzhi/Aeva-Nano",
+            DownloadSource.MODELSCOPE: "louzongktsi/Aeva-Nano",
+            DownloadSource.OPENMIND: "louzongzhi/Aeva-Nano",
         },
-        "Aeva-Air-Chat": {
-            DownloadSource.DEFAULT: "louzongzhi/Aeva-Air",
-            DownloadSource.MODELSCOPE: "louzongktsi/Aeva-Air",
-            DownloadSource.OPENMIND: "louzongzhi/Aeva-Air",
+        "Aeva-Super-Chat": {
+            DownloadSource.DEFAULT: "louzongzhi/Aeva-Super",
+            DownloadSource.MODELSCOPE: "louzongktsi/Aeva-Super",
+            DownloadSource.OPENMIND: "louzongzhi/Aeva-Super",
         },
-        "Aeva-Chat": {
-            DownloadSource.DEFAULT: "louzongzhi/Aeva",
-            DownloadSource.MODELSCOPE: "louzongktsi/Aeva",
-            DownloadSource.OPENMIND: "louzongzhi/Aeva",
-        },
-        "Aeva-Pro-Chat": {
-            DownloadSource.DEFAULT: "louzongzhi/Aeva-Pro",
-            DownloadSource.MODELSCOPE: "louzongktsi/Aeva-Pro",
-            DownloadSource.OPENMIND: "louzongzhi/Aeva-Pro",
-        },
-        "Aeva-Max-Chat": {
-            DownloadSource.DEFAULT: "louzongzhi/Aeva-Max",
-            DownloadSource.MODELSCOPE: "louzongktsi/Aeva-Max",
-            DownloadSource.OPENMIND: "louzongzhi/Aeva-Max",
+        "Aeva-Ultra-Chat": {
+            DownloadSource.DEFAULT: "louzongzhi/Aeva-Ultra",
+            DownloadSource.MODELSCOPE: "louzongktsi/Aeva-Ultra",
+            DownloadSource.OPENMIND: "louzongzhi/Aeva-Ultra",
         },
     },
     template="aeva",
